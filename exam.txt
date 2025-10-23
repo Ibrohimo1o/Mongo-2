@@ -1,0 +1,19 @@
+1-ExpressJs nima-bu node jsda web serverlar va API lar yaratishni soddalashtiruvchi kutubxona misol uchun bu orqali routing,HTTP sorovlar va middlewarelar qayta ishlanadi va json API yaratish uchun juda qulay
+
+2-Mongoose -bu MongoDB bilan NodeJS/ExpressJS orqali  osonroq va tartibli ishlash uchun yaratilgan ODM(Object Data Moduling) kutubxona.Bu orqali biz Schema yaniy aniq bir modellar yaratib u bilan Validatsiya lar qilishimiz mumkin
+
+ MongoDB o'z-o'zidan bir hil turdagi hujjatlarni saqlayveradi.Bu nazoratsiz shu uchun Mongoose modellari orqali aniq tuzilma belgilaymiz va Validatsiya(tekshiruv) bor 
+
+ 3-Bcrypt-bu parollarni xavfsiz shifrlash(hashlash) uchun NodeJS kutubxona
+
+ 4-Cors-(Cross-Origin Resource Sharing) - bu brauzer xavfsizlik tizimi bolib, bir domen yoki user boshqa bir API ga sorov jonatishiga ruxsat berish yoki bermaslik yaniy bu Expressda middleware vaziafasini bajarib beradi
+
+ 5-Body-parser-bu Express.js da kelgan so'rov(request) ichidagi Body(tana) malumotlarni o'qib olish uchun kerak bolgan middleware.Req.body orqali oqish imkonini beradi.
+
+ 6-Joi-bu Nodejs da malumotlarni Validatsiya(tekshirish) qilish uchun ishlatiladigon kutubxona bolib,foydalanuvchidan kelgan malumotlarni toliq yoki tugri kiritildimi shuni tekshirib beradi va bu middleware va agarda tekshiruvidan otmasa hatolik berib sorovlar hatolik berib tohtatiladi
+
+ 7-JsonWebtoken-bu foydalanuvchini autentifikatsiya qilish yaniy kimligini aniqlash.User login qilgan vaqt unga token beriladi va keyingi sorovlarida uni tanib olish uchun va JWt 3 qismdan iborat: 1-Header yaniy qanday algoritm yoli bilan token shifrlash 2-Payload user malumotlari 3-Signature yaniy user bu yerda user maxfiy kaliti va shunga oxshash maxfiy malumotlar token ga tegishli
+
+ 8-Nodemon-bu NodeJS serverini qayta ishga tushuruvchi(restart qiluvchi) kutubxona misol uchun qandaydur ozgartirish kiritildi va buni korish uchun server qayta ishga tushishi zarul va shunda bu juda qol keladi
+  
+ 9-Swagger-backend API larni boshqalarga(front-end larga) tshunarli va ishlatishga tayyor holga keltirish
